@@ -1,0 +1,23 @@
+# 對所有檔案預設自動處理
+* text=auto
+
+# 強制常見文字檔使用 LF (Linux/Mac 格式)
+*.txt text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+# ... 可以繼續添加你們專案用到的其他文字檔副檔名
+
+# 明確標示二進位檔，防止 Git 意外修改它們
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.onnx binary
+# ... 添加其他二進位檔類型
